@@ -1,14 +1,161 @@
-/* 
-
-these are the colors used in the example
-***you can use them if you'd like or you can choose your own***
-
-black - rgb(37, 37, 37)
-blue - rgb(42, 171, 226)
-shadow - rgba(102, 75, 75, .3)
-white - rgb(255, 255, 255) (default value) 
-
-the font is called 'nunito' and can be found on google fonts
-***you can use it if you'd like or you can choose your own***
-
-*/
+.background {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+    margin: 0%;
+    background-color: #252525;
+}
+.logo {
+    margin: 0;
+    display: flex;
+    justify-self: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo-name {
+    display: flex;
+    position: relative;
+    left: 50px;
+    text-decoration-color: #4c9ac6;
+    color: #4c9ac6
+}
+.nav-bar {
+    margin: 0;
+    width: 50vw;
+    display: flex;
+    justify-self: flex-end;
+    justify-content: flex-end;
+}
+.nav {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    color: #c2c2c2;
+    position: relative;
+    list-style: none;
+    list-style-type: none;
+}
+.nav-item {
+    margin-left: 40px;
+    margin-right: 20px;
+    align-self: center;
+}
+.middle-section{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.left-side {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-self: flex-start;
+    align-content: center;
+    width: 60vw;
+    height: 85vh;
+    flex-wrap: wrap;
+    position: relative;
+    left: 100px;
+    bottom: -10px;
+}
+.written-section {
+    margin: 0 auto;
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.image-section {
+    margin: 0 auto;
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#larger-image{
+    position: relative;
+    right: -800px;
+}
+.image-container {
+    margin: 0 auto;
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.photos {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+.right-side {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+    align-self: flex-end;
+    align-content: center;
+    width: 40vw;
+    height: 85vh;
+    flex-wrap: wrap;
+}
+.profile {
+    margin: 0 auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: flex-start;
+    align-content: center;
+    position: relative;
+    top: 50px;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#profile-picture {
+    width: 200px;
+    height: 200px;
+}
+.links-to-articles {
+    position: relative;
+    margin-top: 25px;
+    top: 50px;
+    padding: 25px;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-content: space-between;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 5vh;
+    margin: 0%;
+    background-color: #4c9ac6;
+}
+.bottom-text {
+    position: relative;
+    left: 15px;
+}
+.question-mark {
+    position: relative;
+    top: 15px;
+    left: -15px;
+}
