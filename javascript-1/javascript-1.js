@@ -8,7 +8,7 @@
     Call the array 'myArr'.
 */
 
-//CODE HERE
+const myArr = [4, 'abc', ['cat', 'dog', 'bird'], 77]
 
 
 ////////////////////PROBLEM 2////////////////////
@@ -20,7 +20,14 @@
 
 const nestedLetters = ['m', 'g', 'e', 'q', 'h', ['n', 'b', ['v', 'z', 'y', 'r']], 'a']
 
-//CODE HERE
+const index = nestedLetters.indexOf('x')
+const foundZ = nestedLetters[index]
+
+console.log(foundZ)
+
+//currently: I have named a variable 'index'. 'index' equals the variable 'nestedLetters'.pulling the index of a key in a variable 'x'. But it is
+
+//I feel like I am close, but I don't know why it is not pulling back the information behind 'z' at this point.
 
 
 ////////////////////PROBLEM 3////////////////////
@@ -36,15 +43,18 @@ const savannah = ['lion', 'zebra', 'lion', 'giraffe']
 const desert = ['rattlesnake', 'coyote']
 //DO NOT EDIT CODE ABOVE
 
-//CODE HERE
-
+const animals = [...forest, ocean, savannah, desert]
 
 /*
     Now use the spread operator to make a copy of your animals array.
     Call the new array 'animalsCopy' and add 'elephant' onto the end of the array.
 */
 
-//CODE HERE
+//
+
+const animalsCopy = [...animals]
+
+animalsCopy.push('elephant')
 
 
 ////////////////////PROBLEM 4////////////////////
@@ -55,8 +65,9 @@ const desert = ['rattlesnake', 'coyote']
     If the numbers are the same, just return the number.
 */
 
-//CODE HERE
-
+// compareNums (num1, num2) => {
+    
+// }
   
 ////////////////////PROBLEM 5////////////////////
 /*
